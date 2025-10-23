@@ -28,20 +28,22 @@ def find_missing_msn(excel_path, json_folder):
             return
         
         json_msns = set()
-        invalid_files = []
         for filename in os.listdir(json_folder):
             if filename.endswith('.json'):
-                if '_' in filename:
-                    msn = filename.split('_')[0].strip().upper()
-                    json_msns.add(msn)
+                # 处理文件名：去掉.json扩展名
+                base_name = filename.replace('.json', '').strip()
+                
+                # 智能提取MSN：如果有下划线，取下划线前的部分；否则取完整文件名
+                if '_' in base_name:
+                    msn = base_name.split('_')[0].strip().upper()
                 else:
-                    invalid_files.append(filename)
+                    msn = base_name.upper()
+                
+                json_msns.add(msn)
         
         total_json_unique = len(json_msns)
         json_set = json_msns
         print(f"JSON中去重后msn数量：{total_json_unique}")
-        if invalid_files:
-            print(f"警告：{len(invalid_files)}个JSON文件格式异常（无下划线），已忽略")
         
         # 3. 核心计算：共有、缺失、JSON独有
         common_msn = excel_set & json_set  # 两者共有的msn
@@ -78,6 +80,9 @@ def find_missing_msn(excel_path, json_folder):
 
 if __name__ == "__main__":
     # 替换为你的实际路径
-    EXCEL_FILE_PATH = r"D:\Users\cmy\Documents\WXWork\1688856889516001\Cache\File\2025-10\KIOSK-4500085111-2000 PCS.xls"  # 例如："C:/data/msn_list.xlsx"
-    JSON_FOLDER_PATH = r"C:\Users\cmy\Desktop\251015\251015"     # 例如："C:/data/json_files"
+    # EXCEL_FILE_PATH = r"D:\Users\cmy\Documents\WXWork\1688856889516001\Cache\File\2025-10\KIOSK-4500085111-2000 PCS.xls"  # 例如："C:/data/msn_list.xlsx"
+    # JSON_FOLDER_PATH = r"C:\Users\cmy\Desktop\251015\251015"     # 例如："C:/data/json_files"
+    EXCEL_FILE_PATH = r"C:\Users\cmy\Desktop\BBT10-251022-210 PCS.xls"  # 例如："C:/data/msn_list.xlsx"
+    JSON_FOLDER_PATH = r"C:\Users\cmy\Desktop\BBT10\BBT10\251019"     # 例如："C:/data/json_files"
+
     find_missing_msn(EXCEL_FILE_PATH, JSON_FOLDER_PATH)
