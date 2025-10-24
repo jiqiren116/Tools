@@ -34,9 +34,11 @@ def find_missing_msn(excel_path, json_folder):
                 base_name = filename.replace('.json', '').strip()
                 
                 # 智能提取MSN：如果有下划线，取下划线前的部分；否则取完整文件名
+                # T10ANLHKBD632_android-bluebird.json
                 if '_' in base_name:
                     msn = base_name.split('_')[0].strip().upper()
                 else:
+                    # T10A4LFWBA021.json
                     msn = base_name.upper()
                 
                 json_msns.add(msn)
