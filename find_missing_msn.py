@@ -84,7 +84,7 @@ if __name__ == "__main__":
     # 替换为你的实际路径
     # EXCEL_FILE_PATH = r"D:\Users\cmy\Documents\WXWork\1688856889516001\Cache\File\2025-10\KIOSK-4500085111-2000 PCS.xls"  # 例如："C:/data/msn_list.xlsx"
     # JSON_FOLDER_PATH = r"C:\Users\cmy\Desktop\251015\251015"     # 例如："C:/data/json_files"
-    EXCEL_FILE_PATH = r"C:\Users\cmy\Desktop\BBT10-251022-210 PCS.xls"  # 例如："C:/data/msn_list.xlsx"
-    JSON_FOLDER_PATH = r"C:\Users\cmy\Desktop\BBT10\BBT10\251019"     # 例如："C:/data/json_files"
+    EXCEL_FILE_PATH = r"C:\Users\cmy\Desktop\BBT10-1100台__外箱数据.xls"  # 例如："C:/data/msn_list.xlsx"
+    JSON_FOLDER_PATH = r"C:\Users\cmy\Desktop\BBT10-1100台\251213"     # 例如："C:/data/json_files"
 
     find_missing_msn(EXCEL_FILE_PATH, JSON_FOLDER_PATH)

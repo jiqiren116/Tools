@@ -1,0 +1,214 @@
+====================================================================================================
+📊 XML文件 basic_ui_testcases 分析报告
+====================================================================================================
+
+[基础统计]
+📁 分析的XML文件总数：10
+📈 所有文件不重复测试项总数（并集）：47
+🔄 所有文件共有的测试项数量（交集）：32
+
+[1. 所有不重复测试项列表（并集）]
+   1. ACCELEROMETER
+   2. ACCEL_CALIBRATION
+   3. AUDIO_FTM_HANDSET_PLAYFILE
+   4. AUDIO_FTM_SPEAKER_PLAYFILE
+   5. AUDIO_HEADSET_MIC_RECORD
+   6. AUDIO_PRIMARY_MIC_RECORD
+   7. AUDIO_SECONDARY_MIC_RECORD
+   8. BATTERY
+   9. BLUETOOTH
+  10. CAMERA_BACK
+  11. CAMERA_BACK_MAIN
+  12. CAMERA_FRONT
+  13. CHARGING_CURRENT
+  14. DOCK_CHARGING
+  15. EDAKEY
+  16. EEPROM
+  17. EMER_CALL
+  18. ESIM
+  19. FLASHLIGHT
+  20. FUEL_GAUGE
+  21. GPS
+  22. GYROSCOPE
+  23. GYRO_CALIBRATION
+  24. HALL0_EFFECT_SENSOR
+  25. HALL1_EFFECT_SENSOR
+  26. HALL_EFFECT_SENSOR
+  27. LCD
+  28. LIGHT_SENSOR
+  29. MAGNETIC_SENSOR
+  30. MEMORY
+  31. NFC
+  32. OTG
+  33. POGO_OTG
+  34. PROXIMITY_SENSOR
+  35. SCANNER
+  36. SCAN_LED
+  37. SDCARD
+  38. SIMCARD1
+  39. STORAGE
+  40. SUPERCAPACITY
+  41. SYSTEM_INFO
+  42. TRI_COLOR_LED
+  43. USB_CHARGING
+  44. VIBRATOR
+  45. VOLTAGE
+  46. WIFI
+  47. WORKING_CURRENT
+
+[2. 所有文件共有的测试项列表（交集）]
+   1. ACCELEROMETER
+   2. ACCEL_CALIBRATION
+   3. AUDIO_FTM_SPEAKER_PLAYFILE
+   4. AUDIO_HEADSET_MIC_RECORD
+   5. AUDIO_PRIMARY_MIC_RECORD
+   6. AUDIO_SECONDARY_MIC_RECORD
+   7. BATTERY
+   8. BLUETOOTH
+   9. CHARGING_CURRENT
+  10. DOCK_CHARGING
+  11. EDAKEY
+  12. EEPROM
+  13. FUEL_GAUGE
+  14. GYROSCOPE
+  15. GYRO_CALIBRATION
+  16. HALL0_EFFECT_SENSOR
+  17. HALL1_EFFECT_SENSOR
+  18. LCD
+  19. LIGHT_SENSOR
+  20. MAGNETIC_SENSOR
+  21. MEMORY
+  22. OTG
+  23. POGO_OTG
+  24. PROXIMITY_SENSOR
+  25. STORAGE
+  26. SUPERCAPACITY
+  27. SYSTEM_INFO
+  28. TRI_COLOR_LED
+  29. USB_CHARGING
+  30. VIBRATOR
+  31. WIFI
+  32. WORKING_CURRENT
+
+[3. 每个文件特有的测试项]
+
+  📄 eda62k_platform_case_config.xml（特有项数量：14）：
+     1. AUDIO_FTM_HANDSET_PLAYFILE
+     2. CAMERA_BACK
+     3. CAMERA_BACK_MAIN
+     4. CAMERA_FRONT
+     5. EMER_CALL
+     6. ESIM
+     7. FLASHLIGHT
+     8. GPS
+     9. HALL_EFFECT_SENSOR
+    10. NFC
+    11. SCANNER
+    12. SCAN_LED
+    13. SDCARD
+    14. SIMCARD1
+
+  📄 eda62k_platform_case_config_04ww.xml（特有项数量：12）：
+     1. AUDIO_FTM_HANDSET_PLAYFILE
+     2. CAMERA_BACK
+     3. CAMERA_BACK_MAIN
+     4. CAMERA_FRONT
+     5. EMER_CALL
+     6. FLASHLIGHT
+     7. GPS
+     8. HALL_EFFECT_SENSOR
+     9. SCANNER
+    10. SCAN_LED
+    11. SDCARD
+    12. SIMCARD1
+
+  📄 eda62k_platform_case_config_05ww.xml（特有项数量：13）：
+     1. AUDIO_FTM_HANDSET_PLAYFILE
+     2. CAMERA_BACK
+     3. CAMERA_BACK_MAIN
+     4. CAMERA_FRONT
+     5. EMER_CALL
+     6. FLASHLIGHT
+     7. GPS
+     8. HALL_EFFECT_SENSOR
+     9. NFC
+    10. SCANNER
+    11. SCAN_LED
+    12. SDCARD
+    13. SIMCARD1
+
+  📄 eda62k_platform_case_config_08wl.xml（特有项数量：9）：
+     1. AUDIO_FTM_HANDSET_PLAYFILE
+     2. CAMERA_BACK
+     3. CAMERA_BACK_MAIN
+     4. CAMERA_FRONT
+     5. FLASHLIGHT
+     6. HALL_EFFECT_SENSOR
+     7. SCANNER
+     8. SCAN_LED
+     9. SDCARD
+
+  📄 eda62k_platform_case_config_11wl.xml（特有项数量：4）：
+     1. NFC
+     2. SCANNER
+     3. SCAN_LED
+     4. VOLTAGE
+
+  📄 eda62k_platform_case_config_12wl.xml（特有项数量：4）：
+     1. NFC
+     2. SCANNER
+     3. SCAN_LED
+     4. VOLTAGE
+
+  📄 eda62k_platform_case_config_13ww.xml（特有项数量：13）：
+     1. AUDIO_FTM_HANDSET_PLAYFILE
+     2. CAMERA_BACK
+     3. CAMERA_BACK_MAIN
+     4. CAMERA_FRONT
+     5. EMER_CALL
+     6. FLASHLIGHT
+     7. GPS
+     8. HALL_EFFECT_SENSOR
+     9. NFC
+    10. SCANNER
+    11. SCAN_LED
+    12. SDCARD
+    13. SIMCARD1
+
+  📄 eda62k_platform_case_config_noscan.xml（特有项数量：12）：
+     1. AUDIO_FTM_HANDSET_PLAYFILE
+     2. CAMERA_BACK
+     3. CAMERA_BACK_MAIN
+     4. CAMERA_FRONT
+     5. EMER_CALL
+     6. ESIM
+     7. FLASHLIGHT
+     8. GPS
+     9. HALL_EFFECT_SENSOR
+    10. NFC
+    11. SDCARD
+    12. SIMCARD1
+
+  📄 eda62k_platform_case_config_wlan.xml（特有项数量：10）：
+     1. AUDIO_FTM_HANDSET_PLAYFILE
+     2. CAMERA_BACK
+     3. CAMERA_BACK_MAIN
+     4. CAMERA_FRONT
+     5. FLASHLIGHT
+     6. HALL_EFFECT_SENSOR
+     7. NFC
+     8. SCANNER
+     9. SCAN_LED
+    10. SDCARD
+
+  📄 eda62k_platform_case_config_wlan_noscan.xml（特有项数量：8）：
+     1. AUDIO_FTM_HANDSET_PLAYFILE
+     2. CAMERA_BACK
+     3. CAMERA_BACK_MAIN
+     4. CAMERA_FRONT
+     5. FLASHLIGHT
+     6. HALL_EFFECT_SENSOR
+     7. NFC
+     8. SDCARD
+
+✅ 分析完成！

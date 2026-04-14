@@ -1,0 +1,34 @@
+正在处理文件: C:\Users\cmy\Desktop\QCM6690 RFID Documents\80-88966-14_REV_AB_RFID_Hardware_Application_Note.pdf
+处理结果: 成功
+
+正在处理文件: C:\Users\cmy\Desktop\QCM6690 RFID Documents\80-88966-48_REV_AC_QCM6690___SDR735___QPA8790_RFID_Reference_Schematic.pdf
+处理结果: 成功
+
+正在处理文件: C:\Users\cmy\Desktop\QCM6690 RFID Documents\80-88966-49_REV_AC_QCM6690___SDR735___QPA8790_RFID_Design_Example.pdf
+处理结果: 成功
+
+正在处理文件: C:\Users\cmy\Desktop\QCM6690 RFID Documents\80-88970-105_REV_AB_RFID_Configuration_and_Reference_Apps_User_Guide.pdf
+处理结果: 成功
+
+正在处理文件: C:\Users\cmy\Desktop\QCM6690 RFID Documents\80-88970-105_REV_AE_RFID_Configuration_and_Reference_Apps_User_Guide.pdf
+处理结果: 成功
+
+正在处理文件: C:\Users\cmy\Desktop\QCM6690 RFID Documents\80-88970-106_REV_AB_RFID_Bringup_Application_Note.pdf
+处理结果: 成功
+
+正在处理文件: C:\Users\cmy\Desktop\QCM6690 RFID Documents\80-88970-106_REV_AD_RFID_Bringup_Application_Note.pdf
+处理结果: 成功
+
+正在处理文件: C:\Users\cmy\Desktop\QCM6690 RFID Documents\80-88970-107_REV_AA_RFID_Application_Development_User_Guide.pdf
+处理结果: 成功
+
+正在处理文件: C:\Users\cmy\Desktop\QCM6690 RFID Documents\80-88970-75_REV_AA_RFID_Modes_and_WWAN_RFID_Concurrency.pdf
+处理结果: 成功
+
+正在处理文件: C:\Users\cmy\Desktop\QCM6690 RFID Documents\80-PP662-1_REV_U_SDR735_Data_Sheet.pdf
+处理结果: 成功
+
+正在处理文件: C:\Users\cmy\Desktop\QCM6690 RFID Documents\KBA-251210191704_REV_2_Details_to_apply_for_license_for_modem_RF_license_control_features.pdf
+处理结果: 成功
+
+总计处理 11 个PDF文件，成功 11 个，失败 0 个。
